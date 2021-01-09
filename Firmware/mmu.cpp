@@ -821,7 +821,6 @@ void mmu_load_to_nozzle()
 	#else
 		current_position[E_AXIS] += 14.4f;
 	#endif
-	current_position[E_AXIS] += 14.4f;
 	feedrate = 871;
 	plan_buffer_line_curposXYZE(feedrate / 60);
     st_synchronize();
